@@ -1,0 +1,24 @@
+{
+  "name": "kafkapractice",
+  "version": "1.0.0",
+  "description": "Kafka 실습",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goo-gy/KafkaPractice.git"
+  },
+  "author": "goo-gy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goo-gy/KafkaPractice/issues"
+  },
+  "homepage": "https://github.com/goo-gy/KafkaPractice#readme",
+  "dependencies": {
+    "node-rdkafka": "^2.12.0"
+  }
+}
